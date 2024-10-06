@@ -88,6 +88,7 @@ button{
     background-size: 200% auto;
     color: #fff;
     cursor: pointer;
+    font-size: 18px;
 }
 
 button:hover{
