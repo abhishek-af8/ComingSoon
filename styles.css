@@ -75,7 +75,7 @@ input:focus{
 
 
 input:not(:placeholder-shown) {
-    background-color: #f0f8ff; 
+    background-color: transparent; 
 }
 
 
