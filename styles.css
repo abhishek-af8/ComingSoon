@@ -79,6 +79,25 @@ input:not(:placeholder-shown) {
 }
 
 
+input[type="email"]:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    -webkit-text-fill-color: #352137 !important;
+    border: 3px solid #6900cc !important;
+}
+
+
+input[type="email"]:-ms-autofill {
+    box-shadow: 0 0 0px 1000px transparent inset !important;
+    text-fill-color: #352137 !important;
+}
+
+
+input[type="email"]:-moz-autofill {
+    box-shadow: 0 0 0px 1000px transparent inset !important;
+    text-fill-color: #352137 !important;
+}
+
+
 button{
     padding: 0.6rem;
     border: none;
