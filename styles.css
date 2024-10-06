@@ -74,6 +74,11 @@ input:focus{
 }
 
 
+input:not(:placeholder-shown) {
+    background-color: #f0f8ff; 
+}
+
+
 button{
     padding: 0.6rem;
     border: none;
@@ -97,6 +102,3 @@ input::placeholder{
     font-size: 13px;
 }
 
-svg{
-    background: transparent;
-}
